@@ -10,7 +10,7 @@ When exploring the visualization, you can quickly see a few themes emerge. You w
 Contents of this collection:
 
 1. reddit_scrape_text_analysis.ipynb: This is the Jupyter Notebook where the text scraping and text analysis is performed.
-2. lda_visualization.html: This is the shareable version of the interactive Intertopic Distance Map visualization.
+2. lda_visualization.html: This is the shareable version of the interactive Intertopic Distance Map visualization. This can be downloaded and opened in a browser.
 3. requirements.txt: This is a text file containing the required python packages needed to run the Jupyter notebook.
 
 Note: To access the Reddit API, you will need a client ID, client secret, user agent, username, and password. I used the praw python package to enter my credentials safely for sharing. When running the praw package, it will prompt you to type each credential needed - pressing the ENTER key each time to confirm it.
