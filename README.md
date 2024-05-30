@@ -13,6 +13,6 @@ Contents of this collection:
 2. lda_visualization.html: This is the shareable version of the interactive Intertopic Distance Map visualization. This can be downloaded and opened in a browser.
 3. requirements.txt: This is a text file containing the required python packages needed to run the Jupyter notebook.
 
-Note: To access the Reddit API, you will need a client ID, client secret, user agent, username, and password. I used the praw python package to enter my credentials safely for sharing. When running the praw package, it will prompt you to type each credential needed - pressing the ENTER key each time to confirm it.
+Note: To access the Reddit API, you will need a client ID, client secret, user agent, username, and password. I used the praw python package and getpass.getpass() to enter my credentials safely for sharing. When running the praw package, it will prompt you to type each credential needed - pressing the ENTER key each time to confirm it.
 
 Future Work: This collection was to demonstrate web scraping and text analysis in python. For future improvements, I can specialize and further dive into the proper text cleaning methods that the data needs. Each dataset is unique and has unique conditions, I believe the LDA Model can be improved. Additionally, I could scrape multiple post game comment threads to compile a complete season (or playoff run) to improve my dataset size.
