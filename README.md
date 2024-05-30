@@ -3,7 +3,7 @@ My goal with this project was to demonstrate text web scraping and to perform te
 
 For text analysis, I gathered word count, character count, average word length, and more for each comment. I then performed some cleaning by removing punctuation, stopwords, removing rare words, removing common words, and experimenting with TextBlob for spelling correction.
 
-For NLP techniques, I lemmatized and tokenized each comment. I generated term frequency (tf) and then inverse document (idf); I performed sentiment analysis. Afterwards, I utilized the Gensim package to perform topic modelling, where I created an interactive Intertopic Distance Map visualization to explore the emerging topics.
+For NLP techniques, I lemmatized and tokenized each comment. I generated term frequency (tf) and then inverse document frequency (idf); I performed sentiment analysis. Afterwards, I utilized the Gensim package to perform topic modelling, where I created an interactive Intertopic Distance Map visualization to explore the emerging topics.
 
 When exploring the visualization, you can quickly see a few themes emerge. You will notice the term "gibbs" being used frequently, which is referring to the Detroit Lions running back Jahmyr Gibbs. He had an amazing performance during this game, 152 yard gained with a touchdown. You will also notice references to "mistakes", "ugly", "turnovers". Despite winning, the Detroit Lions committed 3 turnovers that game, including a fumble and interception (which you will find terms of in the analysis too).
 
